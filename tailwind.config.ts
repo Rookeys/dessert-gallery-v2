@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
@@ -58,9 +58,9 @@ const config = {
       },
     },
     borderRadius: {
-      xsm: "8px",
-      sm: "12px",
-      md: "24px",
+      sm: "8px",
+      md: "12px",
+      lg: "24px",
       full: "9999px",
     },
     fontSize: {
@@ -86,4 +86,4 @@ const config = {
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
 
-export default config
+export default config;
