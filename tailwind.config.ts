@@ -56,6 +56,31 @@ const config = {
       white: {
         DEFAULT: "#FFFFFF",
       },
+      border: "#e2e8f0",
+      input: "#e2e8f0",
+      ring: "#010816",
+      background: "#ffffff",
+      foreground: "#010816",
+      destructive: {
+        DEFAULT: "#ee4444",
+        foreground: "#f7f9fb",
+      },
+      muted: {
+        DEFAULT: "#f1f5f9",
+        foreground: "#64748b",
+      },
+      accent: {
+        DEFAULT: "#f1f5f9",
+        foreground: "#0f172a",
+      },
+      popover: {
+        DEFAULT: "#ffffff",
+        foreground: "#010816",
+      },
+      card: {
+        DEFAULT: "#ffffff",
+        foreground: "#010816",
+      },
     },
     borderRadius: {
       sm: "8px",
