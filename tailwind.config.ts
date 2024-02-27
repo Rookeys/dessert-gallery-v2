@@ -50,7 +50,8 @@ const config = {
         60: "#FFC266",
         70: "#FFB54D",
         80: "#FFA733",
-        90: "#FF8D00"
+        90: "#FF9600",
+        foreground: "#FFFDF9"
       },
       secondary: {
         DEFAULT: "#FCF0E1",
@@ -91,9 +92,11 @@ const config = {
       },
     },
     borderRadius: {
-      sm: "8px",
-      md: "12px",
-      lg: "24px",
+      xsm: "8px",
+      sm: "12px",
+      md: "24px",
+      lg: "36px",
+      xl: "48px",
       full: "9999px",
     },
     fontSize: {

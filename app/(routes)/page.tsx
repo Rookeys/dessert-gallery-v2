@@ -1,4 +1,5 @@
 import { Header } from '@/components/common/header';
+import { Button } from '@/components/ui/button';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,8 +8,9 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div>
+    <div className='p-4'>
       <Header />
+      <Button>Test</Button>
     </div>
   );
 }
