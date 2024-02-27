@@ -42,7 +42,15 @@ const config = {
     colors: {
       primary: {
         DEFAULT: "#FF8D00",
+        10: "#FFF0D9",
+        20: "#FFE7C4",
+        30: "#FFE0B5",
+        40: "#FED9A6",
         50: "#FDC886",
+        60: "#FFC266",
+        70: "#FFB54D",
+        80: "#FFA733",
+        90: "#FF8D00"
       },
       secondary: {
         DEFAULT: "#FCF0E1",
