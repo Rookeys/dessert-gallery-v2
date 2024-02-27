@@ -51,25 +51,12 @@ const config = {
         70: "#FFB54D",
         80: "#FFA733",
         90: "#FF9600",
-        foreground: "#FFFDF9"
+        foreground: "#FFFDF9",
       },
       secondary: {
         DEFAULT: "#FCF0E1",
+        foreground: "#010816",
       },
-      gray: {
-        DEFAULT: "#ADADAD",
-      },
-      black: {
-        DEFAULT: "#000000",
-      },
-      white: {
-        DEFAULT: "#FFFFFF",
-      },
-      border: "#e2e8f0",
-      input: "#e2e8f0",
-      ring: "#010816",
-      background: "#ffffff",
-      foreground: "#010816",
       destructive: {
         DEFAULT: "#ee4444",
         foreground: "#f7f9fb",
@@ -90,6 +77,14 @@ const config = {
         DEFAULT: "#ffffff",
         foreground: "#010816",
       },
+      gray: "#ADADAD",
+      black: "#000000",
+      white: "#FFFFFF",
+      border: "#e2e8f0",
+      input: "#e2e8f0",
+      ring: "#010816",
+      background: "#ffffff",
+      foreground: "#010816",
     },
     borderRadius: {
       xsm: "8px",

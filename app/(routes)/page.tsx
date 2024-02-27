@@ -8,9 +8,11 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className='p-4'>
-      <Header />
+    <div className="flex gap-4 p-4">
       <Button>Test</Button>
+      <Button variant={"outline"}>Test</Button>
+      <Button variant={"secondary"}>Test</Button>
+      <Button variant={"ghost"}>Test</Button>
     </div>
   );
 }
