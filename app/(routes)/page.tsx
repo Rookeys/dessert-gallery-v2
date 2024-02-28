@@ -1,5 +1,6 @@
 import { Header } from '@/components/common/header';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,6 +14,8 @@ export default function Home() {
       <Button variant={"outline"}>Test</Button>
       <Button variant={"secondary"}>Test</Button>
       <Button variant={"ghost"}>Test</Button>
+      <Input />
+      <Input variant={'gray'}/>
     </div>
   );
 }
